@@ -4,7 +4,7 @@ from web3 import Web3
 w3 = Web3(Web3.HTTPProvider('https://eth.llamarpc.com'))
 
 # Адрес, для которого мы хотим узнать количество транзакций
-address = Web3.to_checksum_address('0xfcbe4138bf3591194b51b3856bc5742562ddf6ea')
+address = Web3.to_checksum_address('')
 
 try:
     # Получение количества транзакций
